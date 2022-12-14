@@ -81,7 +81,7 @@
     border-radius: 20px;
 }
 
-.ex-10-icon{
+.ex-10-icon:hover{
     animation: spin 1s linear infinite;
 }
 
@@ -90,6 +90,31 @@
         transform: rotate(1turn);
     }
 }
+
+.ex-11-icon:hover{
+    animation: spinlittle 2s linear;
+}
+
+@keyframes spinlittle {
+    0%{
+        transform: rotate(0);
+    }
+
+    60%{
+        transform: rotate(320deg);
+    }
+
+    100%{
+        transform: rotate(0);
+    }
+}
+
+.ex-12-icon:hover{
+    animation: spinlittle 2s linear;
+}
+
+
+
 
 
 
